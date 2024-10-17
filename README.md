@@ -1,4 +1,2 @@
-# Page
-
-from github again
+# About Super World Computer
 
