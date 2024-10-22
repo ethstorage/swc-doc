@@ -22,6 +22,8 @@
 * [Data Indexers](tools/data-indexers.md)
 * [Development Tools](tools/development-tools.md)
 * [Faucets](tools/faucets.md)
+  * [xxx1](tools/faucets.md)
+  * [xxx2](tools/faucets.md)
 * [Node Providers](tools/node-providers.md)
 * [Oracles](tools/oracles.md)
 
