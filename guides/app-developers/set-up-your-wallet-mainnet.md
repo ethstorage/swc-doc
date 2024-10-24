@@ -1,0 +1,1 @@
+set up wallet for mainnet
