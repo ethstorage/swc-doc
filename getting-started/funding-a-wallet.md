@@ -1,2 +1,0 @@
-# Funding a Wallet
-

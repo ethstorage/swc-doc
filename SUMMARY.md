@@ -2,34 +2,34 @@
 
 * [About Super World Computer](README.md)
 
-## Getting Started
+* [Getting Started](getting-started/getting-started.md)
 
-* [Setting Up a Wallet](getting-started/setting-up-a-wallet.md)
-* [Funding a Wallet](getting-started/funding-a-wallet.md)
-* [Set Up A Node](getting-started/set-up-a-node.md)
 
-## Technical Information
+## Core Concepts
 
-* [Network Information](technical-information/network-information.md)
-* [EVM Equivalence](technical-information/evm-equivalence.md)
-* [Contract Addresses](technical-information/contract-addresses.md)
+* [Soul Gas Token](core-concepts/soul-gas-token.md)
+* [Inbox Contract](core-concepts/inbox-contract.md)
+* [L2 Blob](core-concepts/l2-blob.md)
+* [Data Availability](core-concepts/data-availability.md)
 
-## Tools
+## Guides
 
-* [Block Explorers](tools/block-explorers.md)
-* [Bridges](tools/bridges.md)
-* [Cross-Chain](tools/cross-chain.md)
-* [Data Indexers](tools/data-indexers.md)
-* [Development Tools](tools/development-tools.md)
-* [Faucets](tools/faucets.md)
-  * [xxx1](tools/faucets.md)
-  * [xxx2](tools/faucets.md)
-* [Node Providers](tools/node-providers.md)
-* [Oracles](tools/oracles.md)
+* [App Developers]
+  * [Set up your wallet](guides/app-developers/set-up-your-wallet.md)
+  * [Faucets](guides/app-developers/faucets.md)
+  * [Bridge tokens](guides/app-developers/bridge-tokens.md)
+  * [Deploy a contract](guides/app-developers/deploy-a-contract.md)
+  * [Verify a contract](guides/app-developers/verify-a-contract.md)
+* [Node Operators]
+  * [Run an Ethereum node](guides/node-operators/run-a-ethereum-node.md)
+  * [Run a Super World Computer node](guides/node-operators/run-a-super-world-computer-node.md)
 
-## Building on Super World Computer
+## Network Reference
 
-* [Deploy a Smart Contract](building-on-super-world-computer/deploy-a-smart-contract.md)
+* [Network addresses](network-reference/network-addresses.md)
+* [RPC configurations](network-reference/rpc-configurations.md)
+* [Explorers](network-reference/explorers.md)
+
 
 ## LEGAL
 
@@ -39,5 +39,4 @@
 ## Others
 
 * [Join our Discord](others/join-our-discord.md)
-* [Network Status](others/network-status.md)
 * [Whitepaper](others/whitepaper.md)

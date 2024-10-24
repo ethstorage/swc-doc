@@ -1,0 +1,1 @@
+introduction about soul gas token
