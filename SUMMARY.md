@@ -14,21 +14,38 @@
 
 ## Guides
 
-* [App Developers]
-  * [Set up your wallet](guides/app-developers/set-up-your-wallet.md)
-  * [Faucets](guides/app-developers/faucets.md)
-  * [Bridge tokens](guides/app-developers/bridge-tokens.md)
-  * [Deploy a contract](guides/app-developers/deploy-a-contract.md)
-  * [Verify a contract](guides/app-developers/verify-a-contract.md)
-* [Node Operators]
-  * [Run an Ethereum node](guides/node-operators/run-a-ethereum-node.md)
-  * [Run a Super World Computer node](guides/node-operators/run-a-super-world-computer-node.md)
+* App Developers
+  * Set up your wallet
+    * [Testnet](guides/app-developers/set-up-your-wallet-testnet.md)
+    * [Mainnet](guides/app-developers/set-up-your-wallet-mainnet.md)
+  * [Faucet](guides/app-developers/faucet.md)
+  * Bridge tokens
+    * [Testnet](guides/app-developers/bridge-tokens-testnet.md)
+    * [Mainnet](guides/app-developers/bridge-tokens-mainnet.md)
+  * Deploy a contract
+    * [Testnet](guides/app-developers/deploy-a-contract-testnet.md)
+    * [Mainnet](guides/app-developers/deploy-a-contract-mainnet.md)
+  * Verify a contract
+    * [Testnet](guides/app-developers/verify-a-contract-testnet.md)
+    * [Mainnet](guides/app-developers/verify-a-contract-mainnet.md)
+* Node Operators
+  * Run an Ethereum node
+    * [Sepolia](guides/node-operators/run-a-ethereum-node-sepolia.md)
+  * Run a Super World Computer node
+    * [Testnet](guides/node-operators/run-a-super-world-computer-node-testnet.md)
+    * [Mainnet](guides/node-operators/run-a-super-world-computer-node-mainnet.md)
 
 ## Network Reference
 
-* [Network addresses](network-reference/network-addresses.md)
-* [RPC configurations](network-reference/rpc-configurations.md)
-* [Explorers](network-reference/explorers.md)
+* Contract addresses
+  * [Testnet](network-reference/contract-addresses-testnet.md)
+  * [Mainnet](network-reference/contract-addresses-mainnet.md)
+* RPC configurations
+  * [Testnet](network-reference/rpc-configuration-testnet.md)
+  * [Mainnet](network-reference/rpc-configuration-mainnet.md)
+* Explorers
+  * [Testnet](network-reference/explorer-testnet.md)
+  * [Mainnet](network-reference/explorer-mainnet.md)
 
 
 ## LEGAL
