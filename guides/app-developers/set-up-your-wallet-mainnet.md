@@ -1,3 +1,3 @@
 # test header
 
-set up wallet for mainnet
+set up wallet for mainnet xx
