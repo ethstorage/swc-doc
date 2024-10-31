@@ -3,12 +3,13 @@
 
 ### Get Testnet Custom Gas Token On L1
 
-#### Steps
-1. Ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
 
+Steps:
+
+1. Ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
 2. Invoke the `drop` function on etherscan [here](https://sepolia.etherscan.io/address/0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B#writeContract).
 
-#### Or simply run this:
+Or simply run this:
 ```bash
 export L1_RPC_URL='http://88.99.30.186:8545'
 export PRIVATE_KEY=''# input your own pk
@@ -39,13 +40,13 @@ Then if you import `0x4200000000000000000000000000000000000800` into metamask, y
 
 ### Get Devnet Custom Gas Token On L1
 
-#### Steps
+
+Steps:
 
 1. Ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
-
 2. Invoke the `drop` function on etherscan [here](https://sepolia.etherscan.io/address/0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B#writeContract).
 
-#### Or simply run this:
+Or simply run this:
 ```bash
 export L1_RPC_URL='http://88.99.30.186:8545'
 export PRIVATE_KEY=''# input your own pk
