@@ -1,4 +1,4 @@
-# Overview
+## Overview
 
 The Ethereum Cancun upgrade has significantly reduced Layer 2 (L2) data uploading costs by introducing BLOB
 transactions to Layer 1 (L1). This innovation has also enabled a variety of additional applications based on
