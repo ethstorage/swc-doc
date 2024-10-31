@@ -15,14 +15,8 @@
 ## Guides
 
 * App Developers
-  * [Set up your wallet](guides/app-developers/set-up-your-wallet.md)
-  * [Faucet](guides/app-developers/faucet.md)
-  * Bridge tokens
-    * [Testnet](guides/app-developers/bridge-tokens-testnet.md)
-    * [Mainnet](guides/app-developers/bridge-tokens-mainnet.md)
-  * Deploy a contract
-    * [Testnet](guides/app-developers/deploy-a-contract-testnet.md)
-    * [Mainnet](guides/app-developers/deploy-a-contract-mainnet.md)
+  * [Receive tokens](guides/app-developers/receive-tokens.md)
+  * [Bridge tokens](guides/app-developers/bridge-tokens.md)
 * Node Operators
   * [Run an Ethereum node](guides/node-operators/run-a-ethereum-node.md)
   * [Run a Super World Computer node](guides/node-operators/run-a-super-world-computer-node.md)
