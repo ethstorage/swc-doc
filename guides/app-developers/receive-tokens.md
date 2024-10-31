@@ -1,7 +1,7 @@
 ## Testnet
 
 
-### # Get Testnet Custom Gas Token On L1
+### Get Testnet Custom Gas Token On L1
 
 First, ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
 
