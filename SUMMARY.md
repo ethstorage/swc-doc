@@ -2,7 +2,7 @@
 
 * [About Super World Computer](README.md)
 
-* [Getting Started](getting-started/getting-started.md)
+<!--* [Getting Started](getting-started/getting-started.md)-->
 
 
 ## Core Concepts
