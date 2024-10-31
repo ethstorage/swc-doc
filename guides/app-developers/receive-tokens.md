@@ -1,7 +1,7 @@
 ## Testnet
 
 
-## # Get Testnet Custom Gas Token On L1
+### # Get Testnet Custom Gas Token On L1
 
 First, ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
 
@@ -17,7 +17,7 @@ cast send 0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B 'drop()' --private-key $PRI
 
 After that you can cross the claimed `Custom Gas Token` to L2 via `entrance` or follow the instructions [here](https://github.com/ethereum-optimism/specs/discussions/140#discussioncomment-9426636).
 
-# Get Testnet Soul Gas Token On L2
+### Get Testnet Soul Gas Token On L2
 
 ```bash
 export SOUL_GAS_TOKEN=0x4200000000000000000000000000000000000800
@@ -30,13 +30,13 @@ cast send --value 10ether $SOUL_GAS_TOKEN 'deposit()' --private-key $PRIVATE_KEY
 
 Then if you import `0x4200000000000000000000000000000000000800` into metamask, you'll see your balance of `Soul Gas Token`.
 
-## Faucet
+### Faucet
 
 Goto [https://swc-faucet.eth.sep.w3link.io/](https://swc-faucet.eth.sep.w3link.io/).
 
 ## Devnet
 
-# Get Devnet Custom Gas Token On L1
+### Get Devnet Custom Gas Token On L1
 
 First, ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
 
@@ -52,7 +52,7 @@ cast send 0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B 'drop()' --private-key $PRI
 
 After that you can cross the claimed `Custom Gas Token` to L2 via [entrance](https://quarkchain-b1ac26e1bc5a3c1f.testnets.rollbridge.app/) or follow the instructions [here](https://github.com/ethereum-optimism/specs/discussions/140#discussioncomment-9426636).
 
-# Get Devnet Soul Gas Token On L2
+### Get Devnet Soul Gas Token On L2
 
 ```bash
 export SOUL_GAS_TOKEN=0x4200000000000000000000000000000000000800
