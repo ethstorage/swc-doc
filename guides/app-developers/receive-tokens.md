@@ -3,11 +3,12 @@
 
 ### Get Testnet Custom Gas Token On L1
 
-First, ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
+#### Steps
+1. Ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
 
-Then invoke the `drop` function on etherscan [here](https://sepolia.etherscan.io/address/0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B#writeContract).
+2. Invoke the `drop` function on etherscan [here](https://sepolia.etherscan.io/address/0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B#writeContract).
 
-Or simply run this:
+#### Or simply run this:
 ```bash
 export L1_RPC_URL='http://88.99.30.186:8545'
 export PRIVATE_KEY=''# input your own pk
@@ -32,17 +33,19 @@ Then if you import `0x4200000000000000000000000000000000000800` into metamask, y
 
 ### Faucet
 
-Goto [https://swc-faucet.eth.sep.w3link.io/](https://swc-faucet.eth.sep.w3link.io/).
+>Goto [https://swc-faucet.eth.sep.w3link.io/](https://swc-faucet.eth.sep.w3link.io/).
 
 ## Devnet
 
 ### Get Devnet Custom Gas Token On L1
 
-First, ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
+#### Steps
 
-Then invoke the `drop` function on etherscan [here](https://sepolia.etherscan.io/address/0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B#writeContract).
+1. Ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
 
-Or simply run this:
+2. Invoke the `drop` function on etherscan [here](https://sepolia.etherscan.io/address/0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B#writeContract).
+
+#### Or simply run this:
 ```bash
 export L1_RPC_URL='http://88.99.30.186:8545'
 export PRIVATE_KEY=''# input your own pk

@@ -2,7 +2,7 @@
 
 ### Testnet L1 address
 
-```
+```json
 {
   "AddressManager": "0x9E3D6a4043D48014FD25f51d1B5F46f92F3BB3C0",
   "AnchorStateRegistry": "0x6E51C41bb3c2F3666e1C7dd3105b276E5d73d441",
@@ -41,7 +41,7 @@
 
 ### Testnet L2 addresses
 
-```
+```json
 {
     "SoulGasToken": "0x4200000000000000000000000000000000000800"
 }
@@ -52,7 +52,7 @@
 
 ### Devnet L1 addresses
 
-```
+```json
 {
   "AddressManager": "0xd37a90FD4ed35B4b782B6E620ccaAA8cc49Ae11f",
   "AnchorStateRegistry": "0xadDFC07176EE27a0a09cA869aCe056114E9B14CA",
@@ -91,9 +91,8 @@
 
 ### Devnet L2 addresses
 
-```
+```json
 {
 "SoulGasToken": "0x4200000000000000000000000000000000000800"
 }
 ```
-
