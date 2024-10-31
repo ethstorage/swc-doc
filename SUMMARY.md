@@ -10,7 +10,7 @@
 * [Soul Gas Token](core-concepts/soul-gas-token.md)
 * [Inbox Contract](core-concepts/inbox-contract.md)
 * [L2 Blob](core-concepts/l2-blob.md)
-* [Data Availability](core-concepts/data-availability.md)
+<!--* * [Data Availability](core-concepts/data-availability.md)-->
 
 ## Guides
 
