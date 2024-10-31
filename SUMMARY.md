@@ -29,8 +29,7 @@
     * [Testnet](guides/app-developers/verify-a-contract-testnet.md)
     * [Mainnet](guides/app-developers/verify-a-contract-mainnet.md)
 * Node Operators
-  * Run an Ethereum node
-    * [Sepolia](guides/node-operators/run-a-ethereum-node-sepolia.md)
+  * [Run an Ethereum node](guides/node-operators/run-a-ethereum-node.md)
   * [Run a Super World Computer node](guides/node-operators/run-a-super-world-computer-node.md)
 
 ## Network Reference
