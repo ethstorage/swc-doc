@@ -1,6 +1,4 @@
-# Bridge tokens
 
-This guide will help you use the bridge to send tokens between L1 and L2.
 
 ## Testnet
 
