@@ -15,9 +15,7 @@
 ## Guides
 
 * App Developers
-  * Set up your wallet
-    * [Testnet](guides/app-developers/set-up-your-wallet-testnet.md)
-    * [Mainnet](guides/app-developers/set-up-your-wallet-mainnet.md)
+  * [Set up your wallet](guides/app-developers/set-up-your-wallet.md)
   * [Faucet](guides/app-developers/faucet.md)
   * Bridge tokens
     * [Testnet](guides/app-developers/bridge-tokens-testnet.md)
@@ -37,12 +35,7 @@
 * Contract addresses
   * [Testnet](network-reference/contract-addresses-testnet.md)
   * [Mainnet](network-reference/contract-addresses-mainnet.md)
-* RPC configurations
-  * [Testnet](network-reference/rpc-configuration-testnet.md)
-  * [Mainnet](network-reference/rpc-configuration-mainnet.md)
-* Explorers
-  * [Testnet](network-reference/explorer-testnet.md)
-  * [Mainnet](network-reference/explorer-mainnet.md)
+* [RPC configurations](network-reference/rpc-configuration.md)
 
 
 ## LEGAL
