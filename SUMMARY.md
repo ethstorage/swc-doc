@@ -23,18 +23,13 @@
   * Deploy a contract
     * [Testnet](guides/app-developers/deploy-a-contract-testnet.md)
     * [Mainnet](guides/app-developers/deploy-a-contract-mainnet.md)
-  * Verify a contract
-    * [Testnet](guides/app-developers/verify-a-contract-testnet.md)
-    * [Mainnet](guides/app-developers/verify-a-contract-mainnet.md)
 * Node Operators
   * [Run an Ethereum node](guides/node-operators/run-a-ethereum-node.md)
   * [Run a Super World Computer node](guides/node-operators/run-a-super-world-computer-node.md)
 
 ## Network Reference
 
-* Contract addresses
-  * [Testnet](network-reference/contract-addresses-testnet.md)
-  * [Mainnet](network-reference/contract-addresses-mainnet.md)
+* [Contract addresses](network-reference/contract-addresses.md)
 * [RPC configurations](network-reference/rpc-configuration.md)
 
 
