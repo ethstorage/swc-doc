@@ -31,9 +31,7 @@
 * Node Operators
   * Run an Ethereum node
     * [Sepolia](guides/node-operators/run-a-ethereum-node-sepolia.md)
-  * Run a Super World Computer node
-    * [Testnet](guides/node-operators/run-a-super-world-computer-node-testnet.md)
-    * [Mainnet](guides/node-operators/run-a-super-world-computer-node-mainnet.md)
+  * [Run a Super World Computer node](guides/node-operators/run-a-super-world-computer-node.md)
 
 ## Network Reference
 
