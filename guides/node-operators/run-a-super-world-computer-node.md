@@ -8,7 +8,7 @@ This guide will help you get a Super World Computer node up and running.
 
 ### Steps
 
-1. Prepare [rollup.json](./assets/testnet_rollup.json) and [genesis.json](./assets/testnet_genesis.json).
+1. Prepare [rollup.json](https://github.com/ethstorage/pm/blob/main/L2/assets/testnet_rollup.json) and [genesis.json](https://github.com/ethstorage/pm/blob/main/L2/assets/testnet_genesis.json).
 
 
 2. Follow the steps [here](https://docs.optimism.io/builders/chain-operators/tutorials/create-l2-rollup) to build `op-node` and `op-geth`, the only difference is: use the `testnet` branch of both [optimism](https://github.com/ethstorage/optimism/tree/devnet) and [op-geth](https://github.com/ethstorage/op-geth/tree/devnet) instead.
@@ -51,7 +51,7 @@ This guide will help you get a Super World Computer node up and running.
 
 ### Steps
 
-1. Prepare [rollup.json](./assets/devnet_rollup.json) and [genesis.json](./assets/devnet_genesis.json).
+1. Prepare [rollup.json](https://github.com/ethstorage/pm/blob/main/L2/assets/devnet_rollup.json) and [genesis.json](https://github.com/ethstorage/pm/blob/main/L2/assets/devnet_genesis.json).
 
 2. Follow the steps [here](https://docs.optimism.io/builders/chain-operators/tutorials/create-l2-rollup) to build `op-node` and `op-geth`, the only difference is: use the `devnet` branch of both [optimism](https://github.com/ethstorage/optimism/tree/devnet) and [op-geth](https://github.com/ethstorage/op-geth/tree/devnet) instead.
 
