@@ -27,11 +27,6 @@
 * [RPC configurations](network-reference/rpc-configuration.md)
 
 
-## LEGAL
-
-* [Privacy Policy](legal/privacy-policy.md)
-* [Terms of Service](legal/terms-of-service.md)
-
 ## Others
 
 * [Join our Discord](others/join-our-discord.md)
