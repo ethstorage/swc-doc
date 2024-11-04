@@ -26,7 +26,6 @@
 * [Contract addresses](network-reference/contract-addresses.md)
 * [RPC configurations](network-reference/rpc-configuration.md)
 
-
 ## Others
 
 * [Join our Discord](others/join-our-discord.md)
