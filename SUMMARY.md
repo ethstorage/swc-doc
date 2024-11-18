@@ -10,6 +10,7 @@
 * [Soul Gas Token](core-concepts/soul-gas-token.md)
 * [Inbox Contract](core-concepts/inbox-contract.md)
 * [L2 Blob](core-concepts/l2-blob.md)
+* [web3://](core-concepts/web3url.md)
 <!--* * [Data Availability](core-concepts/data-availability.md)-->
 
 ## Guides
