@@ -15,8 +15,8 @@ web3://<contract>[:<chainId>]/<path>
 
 The URLs are following a structure close to traditional HTTP URLs:
 
-- ``<contract>`` can either be an contract address such as ``0x5ad14e8439b9619e165db27545faf6df13e2b947`` or a domain name such as ``web3url.eth``. Learn more about [domain name resolution](https://docs.web3url.io/web3-url-structure/domain-name).
-- ``chainId`` is optional and indicate the chain id of the blockchain where to query the smart contract. ``web3://0x5a985f13345e820aa9618826b85f74c3986e1463:5/tokenHTML/2`` will for example query on the goerli blockchain (chain id = 5).
+- ``<contract>`` can either be a contract address such as ``0x5ad14e8439b9619e165db27545faf6df13e2b947`` or a domain name such as ``web3url.eth``. Learn more about [domain name resolution](https://docs.web3url.io/web3-url-structure/domain-name).
+- ``chainId`` is optional and indicates the chain id of the blockchain where to query the smart contract. ``web3://0x5a985f13345e820aa9618826b85f74c3986e1463:5/tokenHTML/2`` will for example query on the goerli blockchain (chain id = 5).
 - ``path`` follows a similar structure than traditional HTTP URLs, in the form of ``/path/path2?query1=xx&query2=xx``. To know how to build a path, we first need to know the [**resolve mode** of the called smart contract](https://docs.web3url.io/web3-url-structure/resolve-mode)
 
 
@@ -69,5 +69,5 @@ This URL will fetch the balance of USDC of the account ``nemorino.eth``.
 > ⏩ Try now with a [web3:// gateway](https://0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.w3eth.io/balanceOf/nemorino.eth?returns=(uint256)), or with the others ``web3://`` clients
 
 ## Additional Resources
- - [Offical Website](https://web3url.io)
+ - [Official Website](https://web3url.io)
  - [Full Documentation](https://docs.web3url.io)
