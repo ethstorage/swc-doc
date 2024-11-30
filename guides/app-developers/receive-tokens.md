@@ -6,7 +6,7 @@
 
 Steps:
 
-1. Ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
+1. Ensure you have some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
 2. Invoke the `drop` function on etherscan [here](https://sepolia.etherscan.io/address/0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B#writeContract).
 
 Or simply run this:
@@ -34,7 +34,7 @@ Then if you import `0x4200000000000000000000000000000000000800` into metamask, y
 
 ### Faucet
 
->Goto [https://swc-faucet.eth.sep.w3link.io/](https://swc-faucet.eth.sep.w3link.io/).
+>Go to [https://swc-faucet.eth.sep.w3link.io/](https://swc-faucet.eth.sep.w3link.io/).
 
 ## Devnet
 
@@ -43,7 +43,7 @@ Then if you import `0x4200000000000000000000000000000000000800` into metamask, y
 
 Steps:
 
-1. Ensure you've some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
+1. Ensure you have some sepolia gas, otherwise go [here](https://www.alchemy.com/faucets/ethereum-sepolia) for faucet.
 2. Invoke the `drop` function on etherscan [here](https://sepolia.etherscan.io/address/0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B#writeContract).
 
 Or simply run this:
