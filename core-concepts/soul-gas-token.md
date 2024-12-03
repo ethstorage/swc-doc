@@ -6,7 +6,7 @@ To bridge the gap between traditional web users and the growing world of Web3, w
 
 - **Technical Implementation**: SoulETH is managed through an ERC20 contract with a twist: only the sequencer can **`mint`** new tokens. To maintain its non-transferable nature, all attempts to use ERC20's **`transfer`**, **`transferFrom`**, or **`approve`** methods will result in failure.
 - **Wallet Compatibility**: The transaction format remains consistent with existing Rollup ones. Users can transact using ETH wallets without the need for additional ones (e.g., AA wallets), ensuring a smooth user experience.
-- **Gas Fee Process**: For an L2 transaction, the fee will first be deducted from the user's SoulETH balance. If the balance is insufficient, the system will then draw from the user's ETH balance. To account for the additional processing cost of SoulETH, the base gas cost may be slightly higher than traditional transactions, likely from 21,000 to 21,000+2,100+5,000=28,100 gas.
+- **Gas Fee Process**: For an L2 transaction, the fee will first be deducted from the user's SoulETH balance. If the balance is insufficient, the system will then draw from the user's ETH balance. To account for the additional processing costs of SoulETH, the base gas cost may be slightly higher than traditional transactions, likely from 21,000 to 21,000+2,100+5,000=28,100 gas.
 
 ## **Potential Challenges**
 

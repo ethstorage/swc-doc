@@ -7,7 +7,7 @@ the BLOBs due to their low cost, such as [blob.fm](https://blob.fm/), [EthStorag
 costs on L1 remain high compared to L2, leading to high costs for L2 state proposals and non-financial applications
 that rely on BLOBs.
 
-To address these challenges, the L2 BLOB feature introduces support for BLOB transactions on L2. enabling L3 solutions that settle on L2 to use an enshrined 4844-compatiable DA layer without needing to
+To address these challenges, the L2 BLOB feature introduces support for BLOB transactions on L2. enabling L3 solutions that settle on L2 to use an enshrined 4844-compatible DA layer without needing to
 integrate third-party DA providers or deal with the security risks associated with DA bridges. Additionally, the
 applications mentioned above could migrate to L2 with minimal costs.
 
