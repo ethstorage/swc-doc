@@ -14,7 +14,7 @@ To bridge the gap between traditional web users and the growing world of Web3, w
 - **Risk of DoS Attacks**: The introduction of a "free" transaction token like SoulETH could potentially incur denial-of-service (DoS) type attacks. Mitigation strategies include limiting the initial airdrop quantity to support a finite number of transactions, coupled with a mechanism to replenish SGT for users with verified on-chain behaviors.
 - **Sybil Attack Prevention**: Airdrops are susceptible to exploitation through Sybil attacks. We will implement established best practices of airdrops to identify and mitigate such threats effectively.
 
-This proposal outlines a novel approach to lowering the entry barrier into Web3, leveraging SoulETH as a transitional gas token for Web2 users. By addressing the outlined challenges and focusing on user onboarding experience, we believe SoulETH can significantly contribute to the wider adoption of Web3.
+This article outlines a novel approach to lowering the entry barrier into Web3, leveraging SoulETH as a transitional gas token for Web2 users. By addressing the outlined challenges and focusing on user onboarding experience, we believe SoulETH can significantly contribute to the wider adoption of Web3.
 
 ## Comparison with [SoulETH](https://www.notion.so/acbc11492bc145849c470a8ce5114128?pvs=21)
 
@@ -26,4 +26,4 @@ This proposal outlines a novel approach to lowering the entry barrier into Web3,
 
 ## Concluding Remarks
 
-This proposal outlines a novel approach to lowering the entry barrier into Web3, leveraging SGT as a transitional gas token for Web2 users. By addressing the outlined challenges and focusing on user onboarding experience, we believe SGT can signifiQcantly contribute to the wider adoption of Web3.
+This article outlines a novel approach to lowering the entry barrier into Web3, leveraging SGT as a transitional gas token for Web2 users. By addressing the outlined challenges and focusing on user onboarding experience, we believe SGT can signifiQcantly contribute to the wider adoption of Web3.
