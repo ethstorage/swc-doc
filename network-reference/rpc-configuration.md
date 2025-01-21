@@ -7,14 +7,6 @@ Explorer：https://explorer.beta.testnet.l2.quarkchain.io or http://5.9.87.214/
 RPC: https://rpc.beta.testnet.l2.quarkchain.io:8545 or http://5.9.87.214:8545
 ```
 
-## Alpha Testnet
-
-```
-Entrance: https://bridge.alpha.testnet.superworld.computer
-Faucet: https://swc-faucet.eth.sep.w3link.io/
-Explorer：https://explorer.alpha.testnet.superworld.computer or http://65.109.20.29/
-RPC: https://rpc.alpha.testnet.superworld.computer:8545 or http://65.109.20.29:8545 
-```
 
 ## Devnet
 
