@@ -26,7 +26,7 @@ export SOUL_GAS_TOKEN=0x4200000000000000000000000000000000000800
 export L2_RPC_URL='http://5.9.87.214:8545'
 export PRIVATE_KEY=''# input your own pk
 
-cast send --value 10ether $SOUL_GAS_TOKEN 'deposit()' --private-key $PRIVATE_KEY -r $L2_RPC_URL
+cast send --value <amount, e.g., 10ether> $SOUL_GAS_TOKEN 'deposit()' --private-key $PRIVATE_KEY -r $L2_RPC_URL
 ```
 
 
@@ -64,7 +64,7 @@ export SOUL_GAS_TOKEN=0x4200000000000000000000000000000000000800
 export L2_RPC_URL='http://142.132.154.16:8545'
 export PRIVATE_KEY=''# input your own pk
 
-cast send --value 10ether $SOUL_GAS_TOKEN 'deposit()' --private-key $PRIVATE_KEY -r $L2_RPC_URL
+cast send --value <amount, e.g., 10ether> $SOUL_GAS_TOKEN 'deposit()' --private-key $PRIVATE_KEY -r $L2_RPC_URL
 ```
 
 
