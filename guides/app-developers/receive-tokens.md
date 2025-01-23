@@ -55,7 +55,7 @@ export PRIVATE_KEY=''# input your own pk
 cast send 0x274a6990dE7AaE06452cbEFa266c0C6a568F0D5B 'drop()' --private-key $PRIVATE_KEY -r $L1_RPC_URL
 ```
 
-After that you can cross the claimed `Test QKC` to L2 via [entrance](https://quarkchain-b1ac26e1bc5a3c1f.testnets.rollbridge.app/) or follow the instructions [here](https://github.com/ethereum-optimism/specs/discussions/140#discussioncomment-9426636).
+After that you can cross the claimed `Test QKC` to L2 following the instructions [here](https://github.com/ethereum-optimism/specs/discussions/140#discussioncomment-9426636).
 
 ### Get Devnet Soul Gas Token On L2
 
