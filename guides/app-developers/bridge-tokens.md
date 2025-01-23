@@ -1,8 +1,7 @@
+## Beta Testnet
 
+Visit [the bridge](https://bridge.beta.testnet.l2.quarkchain.io) and follow through the UI.
 
-## Testnet
-
-Visit [the bridge](https://bridge.alpha.testnet.superworld.computer) and follow through the UI.
 
 ## Devnet
 

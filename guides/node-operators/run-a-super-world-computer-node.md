@@ -2,16 +2,15 @@
 
 This guide will help you get a Super World Computer node up and running.
 
-
-## Testnet
+## Beta Testnet
 
 
 ### Steps
 
-1. Prepare [rollup.json](https://github.com/ethstorage/pm/blob/main/L2/assets/testnet_rollup.json) and [genesis.json](https://github.com/ethstorage/pm/blob/main/L2/assets/testnet_genesis.json).
+1. Prepare [rollup.json](https://github.com/ethstorage/pm/blob/main/L2/assets/beta_testnet_rollup.json) and [genesis.json](https://github.com/ethstorage/pm/blob/main/L2/assets/beta_testnet_genesis.json).
 
 
-2. Follow the steps [here](https://docs.optimism.io/builders/chain-operators/tutorials/create-l2-rollup) to build `op-node` and `op-geth`, the only difference is: use the `testnet` branch of both [optimism](https://github.com/ethstorage/optimism/tree/devnet) and [op-geth](https://github.com/ethstorage/op-geth/tree/devnet) instead.
+2. Follow the steps [here](https://docs.optimism.io/builders/chain-operators/tutorials/create-l2-rollup) to build `op-node` and `op-geth`, the only difference is: use the `beta_testnet` branch of both [optimism](https://github.com/ethstorage/optimism/tree/devnet) and [op-geth](https://github.com/ethstorage/op-geth/tree/devnet) instead.
 
 3. Setup `op-node` and `op-geth` following the steps below:
 
@@ -20,7 +19,7 @@ This guide will help you get a Super World Computer node up and running.
 
         cd op-geth
 
-        build/bin/geth init --datadir=datadir genesis.json
+        build/bin/geth init --datadir=datadir <path_to_genesis.json>
 
         openssl rand -hex 32 > jwt.txt
 
@@ -38,9 +37,10 @@ This guide will help you get a Super World Computer node up and running.
         export L1_BEACON_URL=http://88.99.30.186:3500
 
 
+        mkdir safedb
         # Ensure to replace --p2p.static with the sequencer's address.
         # Note: p2p is enabled for unsafe block.
-        ./bin/op-node   --l2=http://localhost:8551   --l2.jwt-secret=./jwt.txt   --verifier.l1-confs=4   --rollup.config=./rollup.json   --rpc.addr=0.0.0.0   --rpc.port=8547   --p2p.static=/ip4/65.109.20.29/tcp/9003/p2p/16Uiu2HAmP3KorAMS1DC5SdDEcNGwhMFKuoyvZzBSWXdqysZgrxQ7 --p2p.listen.ip=0.0.0.0 --p2p.listen.tcp=9003 --p2p.listen.udp=9003  --p2p.no-discovery --p2p.sync.onlyreqtostatic --rpc.enable-admin   --l1=$L1_RPC_URL   --l1.rpckind=$L1_RPC_KIND --l1.beacon=$L1_BEACON_URL --l1.beacon-archiver=http://65.108.236.27:9645
+        ./bin/op-node   --l2=http://localhost:8551   --l2.jwt-secret=./jwt.txt   --verifier.l1-confs=4   --rollup.config=<path_to_rollup.json>   --rpc.addr=0.0.0.0   --rpc.port=8547   --p2p.static=/ip4/5.9.87.214/tcp/9003/p2p/16Uiu2HAm2w9ZsnP58zzGpPXGuCH8j6w9ecwA3uwXhkXxJniJEbUX  --p2p.listen.ip=0.0.0.0 --p2p.listen.tcp=9003 --p2p.listen.udp=9003  --p2p.no-discovery --p2p.sync.onlyreqtostatic --rpc.enable-admin   --l1=$L1_RPC_URL   --l1.rpckind=$L1_RPC_KIND --l1.beacon=$L1_BEACON_URL --l1.beacon-archiver=http://65.108.236.27:9645 --safedb.path=safedb
 
     ```
 
