@@ -1,7 +1,7 @@
 ## Beta Testnet
 
 
-### Get Beta Testnet Custom Gas Token On L1
+### Get Test QKC for Beta Testnet On L1
 
 
 Steps:
@@ -39,7 +39,7 @@ Then if you import `0x4200000000000000000000000000000000000800` into metamask, y
 
 ## Devnet
 
-### Get Devnet Custom Gas Token On L1
+### Get Test QKC for Devnet On L1
 
 
 Steps:
