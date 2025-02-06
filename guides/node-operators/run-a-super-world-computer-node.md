@@ -9,6 +9,7 @@ This guide will help you get a Super World Computer node up and running.
 | [git](https://git-scm.com/)                                   | `^2`     | `git --version`       |
 | [go](https://go.dev/)                                         | `^1.21`  | `go version`          |
 | [make](https://linux.die.net/man/1/make)                      | `^3`     | `make --version`      |
+| [just](https://just.systems/man/en/packages.html)             | `^1.34`  | `just --version`      |
 
 ## Beta Testnet
 
