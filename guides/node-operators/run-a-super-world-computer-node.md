@@ -19,13 +19,12 @@ This guide will help you get a Super World Computer node up and running.
 - 1.1 Build `op-geth`
     ```bash
     git clone -b beta_testnet https://github.com/ethstorage/op-geth.git
-    cd op-geth && make geth
+    pushd op-geth && make geth && popd
     ```
 - 1.2 Build `op-node`
     ```bash
-    cd ..
     git clone -b beta_testnet https://github.com/ethstorage/optimism.git
-    cd optimism && make op-node
+    pushd optimism && make op-node && popd
     ```
 
 2. Setup `op-geth`:
@@ -33,7 +32,7 @@ This guide will help you get a Super World Computer node up and running.
     ```bash
         # assume optimism and op-geth repo are located at ./optimism and ./op-geth
 
-        cd ../op-geth
+        cd op-geth
         # prepare beta_testnet_genesis.json
         curl -LO https://raw.githubusercontent.com/ethstorage/pm/main/L2/assets/beta_testnet_genesis.json
         ./build/bin/geth init --datadir=datadir --state.scheme hash beta_testnet_genesis.json
@@ -47,9 +46,10 @@ This guide will help you get a Super World Computer node up and running.
 
 3. Setup `op-node`:
     ```bash
+        # assume optimism and op-geth repo are located at ./optimism and ./op-geth
         # copy jwt.txt from the op-geth directory above to optimism/op-node
-        cp jwt.txt ../optimism/op-node 
-        cd ../optimism/op-node
+        cp op-geth/jwt.txt optimism/op-node 
+        cd optimism/op-node
 
         export L1_RPC_KIND=basic
         export L1_RPC_URL=http://88.99.30.186:8545
@@ -74,13 +74,12 @@ This guide will help you get a Super World Computer node up and running.
 - 1.1 Build `op-geth`
     ```bash
     git clone -b devnet https://github.com/ethstorage/op-geth.git
-    cd op-geth && make geth
+    pushd op-geth && make geth && popd
     ```
 - 1.2 Build `op-node`
     ```bash
-    cd ..
     git clone -b devnet https://github.com/ethstorage/optimism.git
-    cd optimism && make op-node
+    pushd optimism && make op-node && popd
     ```
 
 2. Setup `op-geth`:
@@ -88,7 +87,7 @@ This guide will help you get a Super World Computer node up and running.
     ```bash
         # assume optimism and op-geth repo are located at ./optimism and ./op-geth
 
-        cd ../op-geth
+        cd op-geth
         # prepare devnet_genesis.json
         curl -LO https://raw.githubusercontent.com/ethstorage/pm/main/L2/assets/devnet_genesis.json
 
@@ -103,9 +102,10 @@ This guide will help you get a Super World Computer node up and running.
  
  3. Setup `op-node`:
     ```bash
+        # assume optimism and op-geth repo are located at ./optimism and ./op-geth
         # copy jwt.txt from the op-geth directory above to optimism/op-node
-        cp jwt.txt ../optimism/op-node 
-        cd ../optimism/op-node
+        cp op-geth/jwt.txt optimism/op-node
+        cd optimism/op-node
 
         # prepare devnet_rollup.json
         curl -LO https://raw.githubusercontent.com/ethstorage/pm/main/L2/assets/devnet_rollup.json
